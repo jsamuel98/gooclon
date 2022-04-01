@@ -1,0 +1,99 @@
+html {
+    font-size: 62.5%; /*reglas y buenas practicas de codigoconjuan */
+}
+body {
+    font-size: 16px; /*1 rem = 10px... esto según codigoconjuan*/ /*en mi css original y el de google recomienda 14px*/
+    /* modificaciones personales: */
+    text-align: center; /*establecemos por defecto que queremos todo centrado, esto se puede modificar en la cascada*/
+    font-family: 'Roboto', sans-serif; /*fuente roboto de google*/
+}
+
+header {
+    padding: 6px 6px;
+}
+
+.header {
+    text-align: right; /*justificamos el texto a la derecha*/
+    padding: 0 15px; /*espaciado de 15 px en izq y derecha*/
+}
+
+a {
+    color:#70757a;
+    text-decoration: none;
+    padding: 0 15px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* main {
+
+} */
+
+section {
+    margin-top: 100px;
+}
+#search {
+    cursor: pointer; /*permite cambiar el cursor a otro estilo*/
+}
+#lucky {
+    cursor: pointer; /*permite cambiar el cursor a otro estilo*/
+}
+.botones {
+    margin-top: 18px;
+}
+
+.btn-search {
+    display: inline-block;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; /*esto hace que se redondeen los bordes*/
+    color: #3c4043;
+    font-size: 14px;
+    /* margin: 14px 5px; */
+    padding: 8px 16px;
+    background-color: #f4f5f7;
+    
+    /* padding: auto auto; */
+    /* text-align: center; */
+    /* cursor: pointer; [permite cambiar el cursor a otro estilo] */
+}
+.btn-search:hover {
+    border: 1px solid black;
+}
+
+.vacio {
+    width: 719px;
+    height: 197px;
+}
+.cuadroinput {
+    margin-top: 20px;
+}
+input {
+    width: 582px;
+    height: 44px;
+    border-radius: 36px;
+    border: 1px solid #b9b9b9;
+}
+input:hover {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #F2F2F2;
+}
+.pais {
+    color:#70757a;
+    text-align: left;
+    padding: 15px 30px;
+}
+
+.footer-bottom {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+

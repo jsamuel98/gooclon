@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    }
+
+header {
+    text-align: right;
+    padding: 0 15px;
+}
+
+
+a {
+    color:#70757a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.boton {
+    display: inline-block;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px; /*esto hace que se redondeen los bordes*/
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer; /*permite cambiar el cursor a otro estilo*/
+}
+
+.boton:hover {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 300px;
+}
+
+.pais {
+    color: #70757a;
+    text-align: left;
+}
+
+
+.contenidoizq-footer {
+    
+    float: left;
+}
+.contenidoder-footer {
+
+    float: right;
+}
+
+.footer-bottom {
+    display: block;
+}
